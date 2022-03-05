@@ -1,0 +1,31 @@
+﻿.message {
+  color:darkred;
+}
+
+.table-margin{
+  margin-top: 50px;
+}
+
+
+.results-table > table, th, td {
+  margin-top: 40px;
+  border: 1px solid black;
+  padding: 0px 5px;
+}
+
+.player {
+  background-color: lightskyblue;
+  font-weight: bold;
+  text-align: left;
+}
+
+.score {
+  background-color: lightskyblue;
+  font-weight: bold;
+  text-align: center;
+}
+
+.throws{
+  text-align:center;
+}
+

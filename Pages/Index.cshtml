@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+
+<link rel="stylesheet" href="~/css/Index.css" />
+<div class="text-center form-margin">
+
+  <form method="post" enctype="multipart/form-data">
+    <span>Wybierz plik z wynikami w formacie .txt: </span>
+    <br />
+    <input type="file" name="postedFile" />
+    <input type="submit" value="Załaduj" asp-page-handler="Upload" />
+    <br />
+    <span class="message">@Html.Raw(Model.Message)</span>
+  </form>
+
+  <div class="table-margin">
+    @Html.Raw(Model.Result)
+  </div>
+
+</div>
